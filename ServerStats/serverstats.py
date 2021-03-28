@@ -65,7 +65,7 @@ async def statssetup(ctx):
    
         statsimage = "https://ibb.co/drwnYXX" 
    
-        embed=discord.Embed(title="```Server Stats successfully installed``` ", description=f"{ctx.author.mention}, you have successfully installed the Server Stats in **{ctx.guild}**", color=0x80FF00)
+        embed=discord.Embed(title="📊```Server Stats successfully installed``` 📊", description=f"{ctx.author.mention}, you have successfully installed the Server Stats in **{ctx.guild}**", color=0x80FF00)
         embed.set_thumbnail(url=statsimage)
         embed.set_footer(text="Information")
         await ctx.send(embed=embed)
