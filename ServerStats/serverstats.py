@@ -1,4 +1,4 @@
-# Make Sure that you replace in Line 22 YOUR SERVER ID With your Server ID
+# Make Sure that you replace in Line 23 YOUR SERVER ID With your Server ID
 # And put at the last line your bot token
 import discord
 import asyncio
